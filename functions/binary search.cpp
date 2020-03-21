@@ -1,10 +1,13 @@
+
+// Uses in sorted array !
+// Time: O(Log n).
+
 #include <iostream> 
 
 using namespace std;
 
 // A recursive binary search function. It returns 
-// location of x in given array arr[l..r] is present, 
-// otherwise -1 
+// location of x in given array arr[l..r] is present, otherwise -1 
 int binarySearch(int arr[], int l, int r, int x)
 {
     if (r >= l) {
